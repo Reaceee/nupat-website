@@ -1,0 +1,189 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url('/src/assets/Images/BG_rep.png');
+  background-size: 200px;
+}
+
+
+.nav li {
+  cursor: pointer;
+  transition: all ease .5s;
+}
+
+.nav li:hover {
+  color: #09deff;
+  transition: all ease .5s;
+}
+
+.focus {
+  border-bottom: 4px solid #09deff;
+  color: #09deff;
+}
+
+.carousel {
+  background: url('/src/assets/Images/firstDisplay.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation: none;
+}
+
+.ITS {
+  background: url('/src/assets/Images/firstDisplay3.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  animation: none;
+}
+
+
+@keyframes entrance {
+  0% {
+    margin-left: 50px;
+    opacity: 0;
+  }
+
+  100% {
+    margin-left: 0;
+    opacity: 1;
+  }
+
+}
+.card{
+  transition:  all ease-out .3s;
+  /* opacity: 80%; */
+  cursor: default;
+
+}
+
+.card{
+  background: #fff;
+}
+/* 
+.card:nth-child(2n + 1){
+  background: #1b2248;
+  color: #fff;
+} */
+.card:hover {
+  animation: hov .2s ease-in;
+  background: #1b2248;
+  color: #fff;
+  opacity: 1;
+  transform: perspective(10cm) rotateX(3deg);
+}
+/* 
+.card:nth-child(2n + 1):hover {
+  animation: hov_inv .2s ease-in;
+  background: #fff;
+  color: #000;
+  opacity: 1;
+  transform: perspective(10cm) rotateX(3deg);
+} */
+
+@keyframes hov {
+  0% {
+    background: linear-gradient(#1b2248, #fff 0%);
+  }
+  10% {
+    background: linear-gradient(#1b2248, #fff 10%);
+  }
+  20% {
+    background: linear-gradient(#1b2248, #fff 20%);
+  }
+  30% {
+    background: linear-gradient(#1b2248, #fff 30%);
+  }
+  40% {
+    background: linear-gradient(#1b2248, #fff 40%);
+  }
+  50% {
+    background: linear-gradient(#1b2248, #fff 50%);
+  }
+  60% {
+    background: linear-gradient(#1b2248, #fff 60%);
+  }
+  70% {
+    background: linear-gradient(#1b2248, #fff 70%);
+  }
+  80% {
+    background: linear-gradient(#1b2248, #fff 80%);
+  }
+  90% {
+    background: linear-gradient(#1b2248, #fff 100%);
+  }
+  100% {
+    background: linear-gradient(#1b2248, #fff 100%);
+  }
+}
+
+/*
+@keyframes hov_inv{
+  0% {
+    background: linear-gradient(#fff, #1b2248 0%);
+  }
+  10% {
+    background: linear-gradient(#fff, #1b2248 10%);
+  }
+  20% {
+    background: linear-gradient(#fff, #1b2248 20%);
+  }
+  30% {
+    background: linear-gradient(#fff, #1b2248 30%);
+  }
+  40% {
+    background: linear-gradient(#fff, #1b2248 40%);
+  }
+  50% {
+    background: linear-gradient(#fff, #1b2248 50%);
+  }
+  60% {
+    background: linear-gradient(#fff, #1b2248 60%);
+  }
+  70% {
+    background: linear-gradient(#fff, #1b2248 70%);
+  }
+  80% {
+    background: linear-gradient(#fff, #1b2248 80%);
+  }
+  90% {
+    background: linear-gradient(#fff, #1b2248 100%);
+  }
+  100% {
+    background: linear-gradient(#fff, #1b2248 100%);
+  }
+} */
+
+
+
+
+/* 
+
+*{
+  scroll-snap-align: start;
+}*/
+
+
+/* html{
+scroll-snap-type: y mandatory;
+scroll-snap-stop: none;
+} */
+
+
+/* .card{
+  scroll-snap-align: center;
+}
+
+.cards{
+scroll-snap-type: y mandatory;
+scroll-snap-stop: none;
+}  */
+
+.FocusPage {
+
+  /* pb-3 pl-3 font-['quicksand'] 
+  border-b-4 border-b-solid 
+  border-b-[#26dbc3] 
+  cursor-default */
+}
