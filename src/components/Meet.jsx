@@ -1,8 +1,8 @@
 import MeetCard from './MeetCard.jsx'
-import CEO from '../assets/Images/ceo.jpg'
-import CTO from '../assets/Images/cto.jpg'
-import paulo from '../assets/Images/paulo.jpg'
-import manager from '../assets/Images/manager.jpg'
+import CEO from '../assets/Images/ceo.JPG'
+import CTO from '../assets/Images/cto.JPG'
+import paulo from '../assets/Images/paulo.JPG'
+import manager from '../assets/Images/manager.JPG'
 
 const Meet = () => {
     return (
